@@ -383,17 +383,12 @@ footer ul {
     footer ul {
       order:1;
     }
+      
     footer h4 {
       order:2;
       text-align: center;
       padding: 1rem;
     }
-    
-    
+    footer a:hover {
+        transform: scale(1.2)
     }
-  
-    
-   
-
-  
-

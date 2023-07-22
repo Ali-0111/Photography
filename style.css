@@ -314,6 +314,13 @@ footer ul {
   align-items: center;
 }
 
+footer a img {
+  transition: all 0.2s ease-in-out;
+}
+
+footer a:hover img {
+  transform: scale(1.2);
+}
   /*Animations*/
   /*Animation for opening the page*/
   @keyframes open {
@@ -389,6 +396,4 @@ footer ul {
       text-align: center;
       padding: 1rem;
     }
-    footer a:hover {
-        transform: scale(1.2)
-    }
+  }
